@@ -8,7 +8,7 @@ class CatFactController extends GetxController {
   @override
   void onInit() {
     super.onInit();
-    fetchCatFact(); // نجيب المعلومة أول ما يشتغل الكنترولر
+    fetchCatFact();
   }
 
   void fetchCatFact() async {
